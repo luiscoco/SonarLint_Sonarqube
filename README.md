@@ -40,28 +40,28 @@ https://www.youtube.com/watch?v=oYvMmN6G3F0
 
 https://www.sonarsource.com/products/sonarqube/downloads/
 
-How To Sonarqube Setup From Scratch And Code Analysis (2024):
+**How To Sonarqube Setup From Scratch And Code Analysis (2024)**:
 
 https://www.youtube.com/watch?v=6vdRvz_LnbQ
 
 How to install SonarQube with Docker
 
-First we pull the SonarQube Docker image
+First we **pull SonarQube** Docker image
 
 ```
 docker pull sonarqube
 ```
 
-We also pull and run the PostgreSQL Docker image
+We also pull and **run PostgreSQL** database Docker image
 
 ```
 docker run -d --name sonarqube-db -e POSTGRES_USER=sonar -e POSTGRES_PASSWORD=sonar -e POSTGRES_DB=sonarqube postgres:alpine
 ```
 
-We now run SonarQube
+We now **run SonarQube**
 
 ```
-
+docker run -d --name sonarqube -p 9000:9000 --link sonarqube-db:db -e SONAR_JDBC_URL=jdbc:postgresql://db:5432/sonarqube -e SONAR_JDBC_USERNAME=sonar -e SONAR_JDBC_PASSWORD=sonar sonarqube
 ```
 
 
