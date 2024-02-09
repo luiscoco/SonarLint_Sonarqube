@@ -38,3 +38,7 @@ https://www.youtube.com/watch?v=oYvMmN6G3F0
 ## 2. SonarQube
 
 https://www.sonarsource.com/products/sonarqube/downloads/
+
+How To Sonarqube Setup From Scratch And Code Analysis (2024):
+
+https://www.youtube.com/watch?v=6vdRvz_LnbQ
