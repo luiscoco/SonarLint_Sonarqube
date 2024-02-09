@@ -31,6 +31,7 @@ https://www.youtube.com/watch?v=XX0ey4rRvms
 **Azure DevOps Integration | Mapping your organization with SonarQube**:
 
 https://www.youtube.com/watch?v=oYvMmN6G3F0
+
 ## 1. SonarLint
 
 
@@ -42,6 +43,27 @@ https://www.sonarsource.com/products/sonarqube/downloads/
 How To Sonarqube Setup From Scratch And Code Analysis (2024):
 
 https://www.youtube.com/watch?v=6vdRvz_LnbQ
+
+How to install SonarQube with Docker
+
+First we pull the SonarQube Docker image
+
+```
+docker pull sonarqube
+```
+
+We also pull and run the PostgreSQL Docker image
+
+```
+docker run -d --name sonarqube-db -e POSTGRES_USER=sonar -e POSTGRES_PASSWORD=sonar -e POSTGRES_DB=sonarqube postgres:alpine
+```
+
+We now run SonarQube
+
+```
+
+```
+
 
 ## 3. SonarCloud
 
