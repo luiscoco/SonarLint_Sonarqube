@@ -42,3 +42,10 @@ https://www.sonarsource.com/products/sonarqube/downloads/
 How To Sonarqube Setup From Scratch And Code Analysis (2024):
 
 https://www.youtube.com/watch?v=6vdRvz_LnbQ
+
+## 3. SonarCloud
+
+Efficient GitHub Code Scanning with SonarCloud and GitHub Actions | SonarQube | GitHub | Code Scan:
+
+https://www.youtube.com/watch?v=AYUaIiWZ-_w
+
