@@ -20,10 +20,21 @@ https://www.youtube.com/playlist?list=PL6nq5CLci1YA62OecfK5aYVgly0sQAC1J
 
 
 
-**GitHub Integration | Mapping your organization into SonarQube**: https://www.youtube.com/watch?v=6zvBuZr8CeI
+**GitHub Integration | Mapping your organization into SonarQube**: 
 
+https://www.youtube.com/watch?v=6zvBuZr8CeI
+
+**GitLab Integration** | Mapping your organization into SonarQube: 
+
+https://www.youtube.com/watch?v=XX0ey4rRvms
+
+**Azure DevOps Integration | Mapping your organization with SonarQube**:
+
+https://www.youtube.com/watch?v=oYvMmN6G3F0
 ## 1. SonarLint
 
 
 
 ## 2. SonarQube
+
+https://www.sonarsource.com/products/sonarqube/downloads/
